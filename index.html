@@ -26,7 +26,7 @@
                 <!-- <p> I'm an AI innovator operating at the confluence of engineering, research, and entrepreneurship. As an AI Engineer at ALMA Inc. and Research Lead/Co-Founder at Sapphire, he leverages deep expertise in ML, NLP (including LLMs/SLMs), and reinforcement learning. His portfolio showcases impactful projects ranging from high-accuracy OCR systems and sophisticated biomedical knowledge graphs (in collaboration with University of Missouri researchers) to pioneering ensemble AI trading agents that have outperformed market benchmarks. His research contributions are highlighted by publications (IEEE TENCON, Bioinformatics under review) and active work on diffusion models and multi-agent systems. Recognized for his practical prowess through top placements in major AI/ML competitions (Amazon, Adobe, Google GenAI) and winning "Best Product" at the All India Research Scholar Summit (IIT Madras), Debjyoti is solidifying his expertise through rigorous dual degrees from IIIT Allahabad (B.Tech ECE) and IIT Madras (B.S. Data Science). -->
                 </p>
                 <p>
-                  My research interests include multimodal AI, reinforcement learning, interpretability of language models, and multi-agent systems. I've worked on scalable OCR pipelines, biomedical knowledge graphs, and ensemble trading agents. I'm pursuing a B.Tech in Electronics and Communication Engineering at <a href="https://www.iiita.ac.in/">IIIT Allahabad</a> and a B.S. in Data Science at <a href="https://www.iitm.ac.in/">IIT Madras</a>. I am currently really interested in agentic systems and scalable architectures.
+                  My research interests include multimodal AI, diffusion models, reinforcement learning, interpretability of language models, and multi-agent systems. I've worked on scalable OCR pipelines, biomedical knowledge graphs, and ensemble trading agents. I'm pursuing a B.Tech in Electronics and Communication Engineering at <a href="https://www.iiita.ac.in/">IIIT Allahabad</a> and a B.S. in Data Science at <a href="https://www.iitm.ac.in/">IIT Madras</a>. I am currently really interested in image-vision diffusion models, agentic systems and scalable architectures.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:22f3002029@ds.study.iitm.ac.in">Email</a> &nbsp;/&nbsp;
@@ -371,6 +371,32 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr style="background-color: #fcfcf2; border-radius: 10px;">
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <img src="images/tbep.svg" width="160">
+            </td>
+            <td style="padding:16px;width:80%;vertical-align:middle">
+              <span class="papertitle">TAU-KG Knowledge-Graph Pipeline</span>
+              <br>
+              Under guidance of Dr. Gyan Srivastava & AstraZeneca | Feb 2025 – Present
+              <br><br>
+              <p>
+                • <strong>Document Ingestion & Storage:</strong> Processed 4 full-text PDFs (≈240 total 256-token chunks) and embedded each chunk into a FAISS index (sub-100 ms lookup); migrating to Weaviate and ChromaDB for richer metadata support and horizontal scaling.
+                <br>
+                • <strong>Contextual Relationship Extraction:</strong> Retrieved top-5 similar chunks per entity (avg. cosine ≥ 0.83) and fed them to a fine-tuned GPT-4o model to extract 150+ entity–relation triples into a standardized JSON schema.
+                <br>
+                • <strong>Clustering & Pathway Analysis:</strong> Computed Pearson correlations over 1,200+ node pairs, applied Louvain community detection to identify 5 biologically coherent clusters (pathways/diseases), and validated cluster significance (p < 0.05) across 300+ tests.
+                <br>
+                • <strong>Inferential Statistics & Visualization:</strong> Executed `stats.py` and `Network_stats.py` to calculate degree, betweenness, and modularity metrics for 200+ nodes; visualized insights in Streamlit; planning Neo4j migration to support >10 K edges in production.
+                <br>
+                <a href="https://dev-tau-kg.streamlit.app/">Streamlit Demo</a> /
+                <a href="https://pdnet-papi.saipuram.com/">Hosted API</a> /
+                <a href="https://github.com/DebjyotiRay/TAU-KG">GitHub</a> /
+                <span>Documentation and report [to be out soon]</span>
+              </p>
+            </td>
+          </tr>
 
           <tr style="background-color: #fcfcf2; border-radius: 10px;">
             <td style="padding:16px;width:20%;vertical-align:middle">
