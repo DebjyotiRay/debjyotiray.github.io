@@ -22,7 +22,7 @@
                 <p class="name" style="text-align: center;">
                   Debjyoti Ray
                 </p>
-                <p>I'm a Software Dev Engineer Intern at AWS Q for Business Teams; and Research Lead at <a href="#">Sapphire</a>, where I work on machine learning, and applied AI engineering.
+                <p>I'm a ML Engineer at Miiflow Inc., where I work on machine learning, and applied AI engineering.
                 <!-- <p> I'm an AI innovator operating at the confluence of engineering, research, and entrepreneurship. As an AI Engineer at ALMA Inc. and Research Lead/Co-Founder at Sapphire, he leverages deep expertise in ML, NLP (including LLMs/SLMs), and reinforcement learning. His portfolio showcases impactful projects ranging from high-accuracy OCR systems and sophisticated biomedical knowledge graphs (in collaboration with University of Missouri researchers) to pioneering ensemble AI trading agents that have outperformed market benchmarks. His research contributions are highlighted by publications (IEEE TENCON, Bioinformatics under review) and active work on diffusion models and multi-agent systems. Recognized for his practical prowess through top placements in major AI/ML competitions (Amazon, Adobe, Google GenAI) and winning "Best Product" at the All India Research Scholar Summit (IIT Madras), Debjyoti is solidifying his expertise through rigorous dual degrees from IIIT Allahabad (B.Tech ECE) and IIT Madras (B.S. Data Science). -->
                 </p>
                 <p>
@@ -93,8 +93,71 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
+            <tr onmouseout="miiflow_stop()" onmouseover="miiflow_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='miiflow_image'>
+                    <img src='images/miiflow.png' width="160">
+                  </div>
+                  <img src='images/miiflow.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function miiflow_start() {
+                    document.getElementById('miiflow_image').style.opacity = "1";
+                  }
+                  function miiflow_stop() {
+                    document.getElementById('miiflow_image').style.opacity = "0";
+                  }
+                  miiflow_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">ML Engineer</span>
+                <br>
+                <a href="https://www.miilab.io/">Miiflow Inc.</a> | Remote
+                <br>
+                August 2025 - Present
+                <br>
+                <p>
+                  • Engineered a unified LLM orchestration layer for Miiflow replacing LlamaIndex, supporting 7+ providers with &lt;200 ms latency overhead, streaming, ReAct reasoning, and 95% test coverage.
+                  <br>
+                  • Enhanced Miiflow's agentic memory framework by implementing tool-calling safety, OpenTelemetry tracing, and CI/CD pipelines—boosting developer efficiency and reducing dependency overhead by ~40%.
+                </p>
+              </td>
+            </tr>
+            <tr onmouseout="amazon_q_stop()" onmouseover="amazon_q_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='amazon_q_image'>
+                    <img src='images/amazon.jpeg' width="160">
+                  </div>
+                  <img src='images/amazon.jpeg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function amazon_q_start() {
+                    document.getElementById('amazon_q_image').style.opacity = "1";
+                  }
+                  function amazon_q_stop() {
+                    document.getElementById('amazon_q_image').style.opacity = "0";
+                  }
+                  amazon_q_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Software Dev Engineer Intern</span>
+                <br>
+                <a href="https://aws.amazon.com/q/business/">Amazon Web Services (AWS Q for Business)</a> | Bangalore, India
+                <br>
+                April 2025 - May 2025
+                <br>
+                <p>
+                  • Integrated real-time voice-driven bidirectional streaming APIs into AWS Q for Business using Coral (Amazon's Java/Spring framework), enabling seamless voice-to-LLM-voice interactions via Bedrock-hosted models and EC2-deployed services.
+                  <br>
+                  • Architected and deployed a scalable microservice-based voice interface as an independent service layer within AWS Q, using Amazon Bedrock, SageMaker, and EC2, and designed with PACELC to ensure persistent sessions with low-latency.
+                 </p>
+              </td>
+            </tr>
+            
           <tr onmouseout="transhumanity_stop()" onmouseover="transhumanity_start()">
             <td style="padding:16px;width:20%;vertical-align:middle">
               <div class="one">
@@ -118,7 +181,7 @@
               <br>
               <a href="https://manchesterprize.org/traffease/">TransHumanity</a> | Remote(London, United Kingdom)
               <br>
-              April 2025 - Present
+              April 2025 - May 2025
               <br>
               <p>
                 • Packaged an independent Python‑based text→SQL CLI tool (text_to_sql.py) that parses 4+ parameters (vehicle type, sensor, date range, aggregation) from natural language and emits valid PostgreSQL queries with 98% syntactic accuracy, cutting manual query writing time by 70%.
@@ -152,7 +215,7 @@
               <br>
               <a href="https://www.tryalma.com/">ALMA Inc.</a> | Remote (San Francisco Bay Area)
               <br>
-              March 2025 - Apr 2025
+              Feb 2025 - Apr 2025
               <br>
               <p>
                 • Resolved 40+ support tickets via Notion, Linear, and Slack; on user onboarding by deploying seamless OCR and parameter extraction pipelines from submitted legal documents, improving user intake efficiency by 23%.
@@ -397,7 +460,7 @@
               </p>
             </td>
           </tr>
-
+<!-- 
           <tr style="background-color: #fcfcf2; border-radius: 10px;">
             <td style="padding:16px;width:20%;vertical-align:middle">
               <img src="images/multi-agent.png" width="160">
@@ -417,9 +480,9 @@
                 • Monitoring resource metrics and agent behaviors across simulation runs to extract insights on ethical trade-offs and long-term system health.
               </p>
             </td>
-          </tr>
+          </tr> -->
 
-          <tr style="background-color: #fcfcf2; border-radius: 10px;">
+          <!-- <tr style="background-color: #fcfcf2; border-radius: 10px;">
             <td style="padding:16px;width:20%;vertical-align:middle">
               <img src="images/diffusion.jpeg" width="160">
             </td>
@@ -438,9 +501,9 @@
                 • Synthesized 10+ cross-cutting control and adaptation techniques (Classifier-Free Guidance, ControlNet, PEFT, test-time optimization) to formulate best-practice recommendations and future research directions.
               </p>
             </td>
-          </tr>
+          </tr> -->
 
-          <tr style="background-color: #fcfcf2; border-radius: 10px;">
+          <!-- <tr style="background-color: #fcfcf2; border-radius: 10px;">
             <td style="padding:16px;width:20%;vertical-align:middle">
               <img src="images/flash.png" width="160">
             </td>
@@ -459,7 +522,7 @@
                 • Benchmarking prototype performance on NVIDIA GPUs to assess latency and throughput improvements over standard attention modules.
               </p>
             </td>
-          </tr>
+          </tr> -->
 
           <tr style="background-color: #fcfcf2; border-radius: 10px;">
             <td style="padding:16px;width:20%;vertical-align:middle">
@@ -494,7 +557,44 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="amazon_stop()" onmouseover="amazon_start()" bgcolor="#ffffd0">
+          <tr onmouseout="amazon2025_stop()" onmouseover="amazon2025_start()" bgcolor="#ffffd0">
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='amazon2025_image'>
+                  <img src='images/amazon_ml.jpeg' width="160">
+                </div>
+                <img src='images/amazon_ml.jpeg' width="160">
+              </div>
+              <script type="text/javascript">
+                function amazon2025_start() {
+                  document.getElementById('amazon2025_image').style.opacity = "1";
+                }
+                function amazon2025_stop() {
+                  document.getElementById('amazon2025_image').style.opacity = "0";
+                }
+                amazon2025_stop()
+              </script>
+            </td>
+            <td style="padding:8px;width:80%;vertical-align:middle">
+              <a href="#">
+                <span class="papertitle">Amazon ML Challenge 2025: Multimodal Pricing Engine</span>
+              </a>
+              <br>
+              October 2025
+              <br>
+              <p>
+                • Architected a multimodal price prediction system using cross-attention fusion of image (SigLIP-giant, 768-dim) and text (Gemma-300M, 384-dim) embeddings, replacing naive concatenation with dual-pathway attention mechanism (8 heads) for context-aware feature interaction.
+                <br>
+                • Engineered a 3-layer MLP regression head with BatchNorm1d, GELU activation, and 25% dropout, optimized via custom SMAPE loss and AdamW with cosine annealing scheduler to directly align training with competition metrics.
+                <br>
+                • Achieved top 20 ranking out of 80,000+ participating teams through systematic architecture design balancing model capacity, regularization, and optimization stability.
+                <br>
+                <a href="https://drive.google.com/file/d/1BG8OWhJw53OcwFpryjHzOojNBKeIqUuJ/view?usp=sharing">Report</a>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="amazon_stop()" onmouseover="amazon_start()">
             <td style="padding:16px;width:20%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='amazon_image'>
