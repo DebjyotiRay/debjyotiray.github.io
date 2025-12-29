@@ -3,7 +3,7 @@
  * Handles tab switching, URL hash management, and keyboard navigation
  */
 
-let currentTab = 'about';
+let currentTab = 'experience';
 
 /**
  * Switch to a specific tab
@@ -65,7 +65,7 @@ export function initTabNavigation() {
     if (hash && document.getElementById(`${hash}-tab`)) {
         switchTab(hash);
     } else {
-        switchTab('about'); // Default to about tab
+        switchTab('experience'); // Default to experience tab
     }
 
     // Handle browser back/forward buttons
