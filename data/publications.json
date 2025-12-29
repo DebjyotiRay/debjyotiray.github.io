@@ -1,0 +1,70 @@
+{
+    "published": [
+        {
+            "title": "Target and Biomarker Exploration Portal for Drug Discovery research",
+            "authors": "Bhupesh Dewangan, Debjyoti Ray, Sameera Devulapalli, Yijie Ren, Shraddha Srivastava, Shilpi Chaurasia, Lei Jiang, <a href=\"https://www.linkedin.com/in/muneendra-ojha-a3153b15/\"> Muneendra Ojha </a>, <a href=\"https://engineering.missouri.edu/faculty/dong-xu/\">Dong Xu</a>, <a href=\"https://www.linkedin.com/in/gyan-srivastava-501b6715/\">Gyan Srivastava</a>",
+            "venue": "BioInformatics, 2025 (Under Review)",
+            "image": "images/tbep.svg",
+            "links": [
+                {
+                    "text": "paper",
+                    "url": "https://www.researchgate.net/publication/387900903_Target_and_Biomarker_Exploration_Portal_for_Drug_Discovery"
+                },
+                {
+                    "text": "Live version of the tool",
+                    "url": "https://pdnet.missouri.edu/"
+                },
+                {
+                    "text": "Team",
+                    "url": "https://pdnet.missouri.edu/team"
+                },
+                {
+                    "text": "Tutorial videos",
+                    "url": "https://pdnet.missouri.edu/docs/use-cases-and-short-help-videos"
+                }
+            ],
+            "description": "A comprehensive knowledge graph-based portal for drug discovery research focusing on biomarker exploration and target identification, integrating data from multiple biomedical databases.",
+            "highlighted": true
+        },
+        {
+            "title": "Deep Q-Snake: An Intelligent Agent Mastering the Snake Game with Deep Reinforcement Learning",
+            "authors": "Debjyoti Ray; Arindam Ghosh; <a href=\"https://www.linkedin.com/in/muneendra-ojha-a3153b15/\"> Muneendra Ojha </a>; <a href=\"https://www.linkedin.com/in/krishna-pratap-singh-33236654/\">Krishna Pratap Singh</a>",
+            "venue": "IEEE TENCON-2024",
+            "image": "images/snake.gif",
+            "links": [
+                {
+                    "text": "paper",
+                    "url": "https://ieeexplore.ieee.org/document/10903025"
+                },
+                {
+                    "text": "code",
+                    "url": "https://github.com/AIMSIIITA/SNAKE_AI"
+                },
+                {
+                    "text": "certificate",
+                    "url": "https://drive.google.com/file/d/1BipzOq3MGY8VtG5vzKarNLuBlS51Pj49/view?usp=sharing"
+                },
+                {
+                    "text": "Demo video",
+                    "url": "https://www.youtube.com/watch?v=KuUbKE5kM2M"
+                }
+            ],
+            "description": "This paper explores the application of Deep Q-Learning to create an intelligent agent capable of mastering the classic Snake game, demonstrating the effectiveness of reinforcement learning in game environments.",
+            "highlighted": true
+        }
+    ],
+    "currentResearch": [
+        {
+            "title": "UC Berkeley RDI AgentX Hackathon (Research Track)",
+            "location": "Remote",
+            "dates": "May 2025 – Present",
+            "image": "images/multi-agent.png",
+            "bullets": [
+                "Prototyping an LLM-driven multi-agent simulation that manages a shared resource pool with configurable consumption limits and regeneration rates.",
+                "Designing and testing inter-agent negotiation and conflict-resolution protocols to balance individual utility against group sustainability under scarcity.",
+                "Integrating LLM API calls into each agent's decision logic to weigh self-interest versus collective welfare in real time.",
+                "Monitoring resource metrics and agent behaviors across simulation runs to extract insights on ethical trade-offs and long-term system health."
+            ]
+        }
+    ]
+}

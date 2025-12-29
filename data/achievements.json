@@ -1,0 +1,31 @@
+{
+    "researchSummits": [
+        {
+            "title": "All India Research Scholar Summit (AIRSS) 2024",
+            "subtitle": "IIT Madras - Best Product Winners",
+            "image": "images/airss.jpg",
+            "links": [
+                {
+                    "text": "Oral Presentation",
+                    "url": "https://www.youtube.com/watch?v=lgWNRGHxBKE"
+                },
+                {
+                    "text": "Certificate",
+                    "url": "https://drive.google.com/file/d/1WQggMzmmMNFXENFZWbqCR_Gh9jxPrX2V/view?usp=sharing"
+                }
+            ],
+            "bullets": [
+                "Engaged with 5+ venture capitalists to validate Sapphire's strategic vision and incorporate direct investor feedback",
+                "Presented our AI-trading framework to Ashwani Bhatia (SEBI Board Director), securing regulatory insights and endorsement of our risk-management protocols",
+                "Delivered a 20-minute pitch to a panel of 15+ academics, industry leaders, and regulators, spotlighting live trading performance and DRL innovations",
+                "Clinched the Best Product Showcase award out of 200+ national entries, distinguishing Sapphire as India's leading AI-powered trading solution"
+            ]
+        }
+    ],
+    "exams": {
+        "jee_mains": "99.28 percentile",
+        "wbjee": "99.72 percentile",
+        "jee_advanced": "98.02 percentile",
+        "kvpy": "Qualified"
+    }
+}

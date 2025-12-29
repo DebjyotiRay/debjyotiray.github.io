@@ -1,0 +1,101 @@
+{
+    "hackathons": [
+        {
+            "id": "amazon2025",
+            "title": "Amazon ML Challenge 2025: Multimodal Pricing Engine",
+            "rank": "Top 20 / 80,000+ teams",
+            "url": "#",
+            "date": "October 2025",
+            "image": "images/amazon_ml.jpeg",
+            "bullets": [
+                "Architected a multimodal price prediction system using cross-attention fusion of image (SigLIP-giant, 768-dim) and text (Gemma-300M, 384-dim) embeddings, replacing naive concatenation with dual-pathway attention mechanism (8 heads) for context-aware feature interaction.",
+                "Engineered a 3-layer MLP regression head with BatchNorm1d, GELU activation, and 25% dropout, optimized via custom SMAPE loss and AdamW with cosine annealing scheduler to directly align training with competition metrics.",
+                "Achieved systematic architecture design balancing model capacity, regularization, and optimization stability."
+            ],
+            "links": [
+                {
+                    "text": "Report",
+                    "url": "https://drive.google.com/file/d/1BG8OWhJw53OcwFpryjHzOojNBKeIqUuJ/view?usp=sharing"
+                }
+            ],
+            "highlighted": true
+        },
+        {
+            "id": "amazon2024",
+            "title": "Amazon ML Challenge 2024: Feature Extraction from Images",
+            "rank": "Rank 12 / 75,000+ teams",
+            "url": "https://unstop.com/hackathons/amazon-ml-challenge-amazon-1100713/coding-challenge/200089?d=eyJwYWdlIjoxLCJ0ZWFtSWQiOjIyODAxMDgwLCJhc3NvY2lhdGlvbklkIjo4NDEzMzl9",
+            "date": "September 2024",
+            "image": "images/amazon_ml.jpeg",
+            "bullets": [
+                "Processed 260,000+ images using PaddleOCR and Qwen-2VL-2B, fine-tuning the latter on 50,000 images by freezing non-critical layers and applying LoRA adapters with 4-bit quantization and FP16 precision.",
+                "Evaluated performance based on multi-language accuracy and text orientation handling.",
+                "Utilized A100 and T4 GPUs for parallel execution, employing Liger kernels, gradient accumulation, and cosine learning rate scheduling to maximize throughput while minimizing computational overhead."
+            ],
+            "links": [
+                {
+                    "text": "Report",
+                    "url": "https://drive.google.com/file/d/1gNZpMz0LmwJOp50aIaZJ00FUrOro7-4W/view"
+                }
+            ],
+            "highlighted": true
+        },
+        {
+            "id": "adobe2024",
+            "title": "Adobe Gensolve 2024",
+            "rank": "Top 50 Nationwide",
+            "url": "https://www.geeksforgeeks.org/hackathon/adobe-gensolve-innovate-to-impact",
+            "date": "2024",
+            "image": "images/adobe.jpeg",
+            "bullets": [
+                "Analyzed 500+ hand‑drawn curve samples, extracting 10+ geometric features (e.g., curvature, length, closure) to drive algorithm selection and parameter tuning",
+                "Regularized shapes by implementing detection and fitting for 5 curve classes (lines, circles, ellipses, rectangles, polygons), achieving 96% classification accuracy on a 1,000‑curve test set",
+                "Inpainted 150+ occluded curves with a partial‑convolution network in partialconv/, reaching a mean IoU of 0.88, and deployed the end‑to‑end pipeline as a Streamlit app for real‑time demonstration"
+            ],
+            "links": [
+                {
+                    "text": "Certificate",
+                    "url": "https://drive.google.com/file/d/1kt6cqbRW8ZrO0T5dCN8otScc-C3t8Vbq/view?usp=sharing"
+                }
+            ]
+        },
+        {
+            "id": "streamshop",
+            "title": "HackOn with Amazon Season 4: StreamShop",
+            "rank": "Rank 11 / 75,000+ teams",
+            "url": "https://unstop.com/hackathons/hackon-with-amazon-season-4-amazon-959046",
+            "date": "September 2024",
+            "image": "images/hackon.webp",
+            "bullets": [
+                "Built a synthetic dataset by overlaying Amazon product cutouts onto Panchayat TV scenes, generating thousands of training samples with 4 augmentation techniques (rotation, scaling, translation, color jitter)",
+                "Fine-tuned DeVIT few-shot Vision Transformer (k=10) using meta-learning for real-time product detection with minimal training data",
+                "Deployed full-stack prototype with Flask backend and Next.js frontend to enable seamless in-stream product detection for Prime Video"
+            ],
+            "links": [
+                {
+                    "text": "Demo Video",
+                    "url": "https://youtu.be/21yOeJ--X4c"
+                },
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/bhupesh98/Amazon-HackOn"
+                }
+            ]
+        },
+        {
+            "id": "startathon2023",
+            "title": "Start-a-thon 2023",
+            "rank": "Top 4 / 150,000 entrepreneurs",
+            "subtitle": "Startup India National Competition - STPI Neuron Finals",
+            "image": "images/startathon.jpeg",
+            "date": "2023",
+            "bullets": [
+                "Researched and architected an ensemble trading agent blending PPO, A2C, and SAC DRL algorithms—achieving a 20% higher annualized return compared to individual agents",
+                "Implemented dynamic risk management with drawdown caps and volatility scaling—delivering a 1.5 Sharpe ratio and 30% lower max drawdown",
+                "Conducted rigorous backtesting (2010–2021 training; 2021–2024 validation), validating a consistent 25% alpha over DJI and S&P 500 benchmarks",
+                "Deployed in live markets since 2024—sustaining 99% uptime and outperforming major indices by 15% in NSE execution"
+            ],
+            "highlighted": true
+        }
+    ]
+}

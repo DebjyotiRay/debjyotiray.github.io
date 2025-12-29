@@ -1,0 +1,18 @@
+[
+    {
+        "institution": "Indian Institute of Information Technology, Allahabad",
+        "institutionUrl": "https://www.iiita.ac.in/",
+        "degree": "Bachelors of Technology(B. Tech) in Electronics and Communication Engineering",
+        "dates": "Expected October 2026",
+        "gpa": "8.4/10",
+        "image": "images/iiita.png"
+    },
+    {
+        "institution": "Indian Institute of Technology, Madras",
+        "institutionUrl": "https://www.iitm.ac.in/",
+        "degree": "Bachelors of Science(B.S.) in Data Science",
+        "dates": "Expected June 2026",
+        "gpa": "8.13/10",
+        "image": "images/iitm.png"
+    }
+]

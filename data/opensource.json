@@ -1,0 +1,113 @@
+[
+    {
+        "project": "miiflow-llm: Minimal Agentic Library",
+        "projectUrl": "https://github.com/MiiFlow/miiflow-llm",
+        "role": "Founding Contributor",
+        "dates": "August 2024 - Present",
+        "image": "images/miiflow.png",
+        "description": "Contributed to miiflow-llm, working closely with the Miiflow team to build a lightweight agentic library that sits between heavyweight frameworks (LangChain/LlamaIndex) and thin SDKs.",
+        "keyContributions": [
+            "Co-designed the provider-agnostic API architecture supporting OpenAI, Anthropic, Groq, Gemini, Mistral, and Ollama with unified interfaces",
+            "Contributed to the streaming reasoning + tool events system enabling real-time UI updates for every agent step",
+            "Helped architect the ReAct, Thinking, and Plan-and-Execute reasoning patterns with clean abstractions",
+            "Implemented the one-line @tool decorator system for seamless function-to-tool conversion",
+            "Collaborated on establishing the library's core principle: lightweight but agentic, giving developers full control without framework lock-in"
+        ],
+        "footer": "The library is now used in production at Miiflow and has been adopted by external teams building agentic systems.",
+        "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/MiiFlow/miiflow-llm"
+            },
+            {
+                "text": "ReAct Demo",
+                "url": "https://colab.research.google.com/drive/1LDGzRIoUFxpi-IO5hC2dzIfI12p-O1Jh"
+            },
+            {
+                "text": "Plan & Execute Demo",
+                "url": "https://colab.research.google.com/drive/13KoGQ8Fl0lKcvSsjrIt5f5ieWWdmzuoZ"
+            }
+        ],
+        "highlighted": true
+    },
+    {
+        "project": "EleutherAI LM Evaluation Harness",
+        "projectUrl": "https://github.com/EleutherAI/lm-evaluation-harness",
+        "image": "images/eleuther.png",
+        "description": "Contributing to the industry-standard framework for evaluating language models, used by researchers and organizations worldwide for benchmarking LLMs.",
+        "bullets": [
+            "Fixed critical bug in model_args processing (PR #3097) - handled both string and dictionary formats, preventing visualization errors",
+            "Integrated chrF (character n-gram F-score) metrics for better evaluation of machine translation and text generation tasks",
+            "Added comprehensive test cases to ensure robust handling of different input formats"
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/EleutherAI/lm-evaluation-harness"
+            },
+            {
+                "text": "PR #3097",
+                "url": "https://github.com/EleutherAI/lm-evaluation-harness/pull/3097"
+            }
+        ]
+    },
+    {
+        "project": "HuggingFace nanoVLM",
+        "projectUrl": "https://github.com/huggingface/nanoVLM",
+        "image": "images/nanoVLM.png",
+        "description": "Contributing to HuggingFace's vision-language model training framework.",
+        "bullets": [
+            "Integrated new evaluation metrics for vision-language tasks",
+            "Implemented GRPO (Group Relative Policy Optimization) training techniques",
+            "Enhanced model training pipelines and benchmarking capabilities"
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/huggingface/nanoVLM"
+            }
+        ]
+    },
+    {
+        "project": "Pickle's Glass",
+        "projectUrl": "https://github.com/pickle-com/glass",
+        "image": "images/glass.gif",
+        "description": "Contributing to Pickle's enterprise knowledge management platform.",
+        "bullets": [
+            "Built real-time search functionality (PR #150) enabling users to search across conversation history and audio transcripts",
+            "Implemented multi-source search with keyword highlighting and direct navigation to session details",
+            "Created search-as-you-type experience across both AI messages and transcripts"
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/pickle-com/glass"
+            },
+            {
+                "text": "PR #150",
+                "url": "https://github.com/pickle-com/glass/pull/150"
+            }
+        ]
+    },
+    {
+        "project": "HyprNote",
+        "projectUrl": "https://github.com/fastrepl/hyprnote",
+        "image": "images/hyprnote.webp",
+        "description": "Contributed to AI-powered note-taking and summarization tool, with focus on audio processing.",
+        "bullets": [
+            "Worked on speaker diarization implementation to identify and separate different speakers in audio recordings",
+            "Addressed silent response detection issues in audio processing pipeline",
+            "Research transitioned to DOVER (Diarization Output Voting Error Reduction) model for improved diarization accuracy"
+        ],
+        "links": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/fastrepl/hyprnote"
+            },
+            {
+                "text": "Company",
+                "url": "https://www.linkedin.com/company/hyprnote/"
+            }
+        ]
+    }
+]

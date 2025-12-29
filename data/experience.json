@@ -1,0 +1,112 @@
+[
+    {
+        "id": "miiflow",
+        "company": "Miiflow Inc.",
+        "companyUrl": "https://www.miilab.io/",
+        "role": "ML Engineer",
+        "location": "Remote",
+        "dates": "August 2025 - Present",
+        "image": "images/miiflow.png",
+        "bullets": [
+            "Engineered a unified LLM orchestration layer for Miiflow replacing LlamaIndex, supporting 7+ providers with <200 ms latency overhead, streaming, ReAct reasoning, and 95% test coverage.",
+            "Enhanced Miiflow's agentic memory framework by implementing tool-calling safety, OpenTelemetry tracing, and CI/CD pipelines—boosting developer efficiency and reducing dependency overhead by ~40%."
+        ]
+    },
+    {
+        "id": "amazon_q",
+        "company": "Amazon Web Services (AWS Q for Business)",
+        "companyUrl": "https://aws.amazon.com/q/business/",
+        "role": "Software Dev Engineer Intern",
+        "location": "Bangalore, India",
+        "dates": "April 2025 - May 2025",
+        "image": "images/amazon.jpeg",
+        "bullets": [
+            "Integrated real-time voice-driven bidirectional streaming APIs into AWS Q for Business using Coral (Amazon's Java/Spring framework), enabling seamless voice-to-LLM-voice interactions via Bedrock-hosted models and EC2-deployed services.",
+            "Architected and deployed a scalable microservice-based voice interface as an independent service layer within AWS Q, using Amazon Bedrock, SageMaker, and EC2, and designed with PACELC to ensure persistent sessions with low-latency."
+        ]
+    },
+    {
+        "id": "transhumanity",
+        "company": "TransHumanity",
+        "companyUrl": "https://manchesterprize.org/traffease/",
+        "role": "AI Engineer Intern",
+        "location": "Remote(London, United Kingdom)",
+        "dates": "April 2025 - May 2025",
+        "image": "images/transhumanity.png",
+        "bullets": [
+            "Packaged an independent Python‑based text→SQL CLI tool (text_to_sql.py) that parses 4+ parameters (vehicle type, sensor, date range, aggregation) from natural language and emits valid PostgreSQL queries with 98% syntactic accuracy, cutting manual query writing time by 70%.",
+            "Engineered multi‑layered SQL validation (basic & schema‑aware) to block dangerous operations and mis‑typed tables/columns, reducing invalid‑query failures by 85%.",
+            "Developed an intelligent correction system—rule‑based fixes for common typos, LLM‑based fallback for complex errors, plus a self‑learning loop—that auto‑corrects 92% of syntax/name mistakes and preempts 60% of recurring error patterns."
+        ]
+    },
+    {
+        "id": "alma",
+        "company": "ALMA Inc.",
+        "companyUrl": "https://www.tryalma.com/",
+        "role": "AI Engineer",
+        "location": "Remote (San Francisco Bay Area)",
+        "dates": "Feb 2025 - Apr 2025",
+        "image": "images/alma.png",
+        "bullets": [
+            "Resolved 40+ support tickets via Notion, Linear, and Slack; on user onboarding by deploying seamless OCR and parameter extraction pipelines from submitted legal documents, improving user intake efficiency by 23%.",
+            "Engineered a multi-agent document extraction pipeline, increasing OCR accuracy by 45% and reducing data-entry errors by 29%, using: Mistral-ocr-latest for markdown conversion; Pixtral-12B; Mistral-2B SLM as a post-processing agent."
+        ]
+    },
+    {
+        "id": "crecientech",
+        "company": "Crecientech",
+        "companyUrl": "#",
+        "role": "ML Research Intern",
+        "location": "Remote (Boston, Massachusetts)",
+        "dates": "Dec 2024 - Feb 2025",
+        "image": "images/univerisity_of_missouri.jpg",
+        "additionalInfo": "in association with <a href=\"https://missouri.edu/\">University of Missouri-Columbia</a> (Profs. <a href=\"https://engineering.missouri.edu/faculty/dong-xu/\">Dong Xu</a> & <a href=\"https://www.linkedin.com/in/gyan-srivastava-501b6715/\">Gyan Srivastava</a>)",
+        "bullets": [
+            "Built a biomedical knowledge graph pipeline processing 500+ PubMed abstracts with MedPalm-2, achieving 92% accuracy in protein-pathway mapping cross-referenced with STRING-db, and Reactome.",
+            "Scaled automated graph construction by 22.71%, creating 3000+ entities and relationships, used multi-agent architecture for, leveraging small language models (SLMs) to reduce inference time and latency."
+        ]
+    },
+    {
+        "id": "sapphire",
+        "company": "Sapphire: AI Trader",
+        "companyUrl": "#",
+        "role": "Research and Business Lead (Co-Founder)",
+        "location": "India",
+        "dates": "August 2023 - Present",
+        "image": "images/sapphire.jpeg",
+        "bullets": [
+            "Developed a novel ensemble trading agent using multiple SOTA reinforcement learning algorithms combined with LLMs on stock market data, achieving a 20% increase in annualized returns and a 15% reduction in volatility.",
+            "Directed an 8-member team under a Board of Advisors in parallel for algorithm development and interface deployment; achieving a 30% growth in net positive independent portfolio over 3 months.",
+            "Top 4 teams out of 150,000 entrepreneurs in the STPI [Startup India Finals] – Neuron, Mohali OCW 7.0",
+            "Raised a research grant with one of the highest valuations from NewGen IEDC, IIIT-Allahabad (Incubator) and Xartup"
+        ]
+    },
+    {
+        "id": "winter_intern",
+        "company": "Crecientech",
+        "companyUrl": "#",
+        "role": "ML Research Intern",
+        "location": "Remote (Boston, Massachusetts)",
+        "dates": "May 2024 - July 2024",
+        "image": "images/univerisity_of_missouri.jpg",
+        "additionalInfo": "in association with <a href=\"https://missouri.edu/\">University of Missouri-Columbia</a> (Profs. <a href=\"https://engineering.missouri.edu/faculty/dong-xu/\">Dong Xu</a> & <a href=\"https://www.linkedin.com/in/gyan-srivastava-501b6715/\">Gyan Srivastava</a>)",
+        "bullets": [
+            "Engineered a fine‑tuned BioBERT model by curating ~500 Q&A pairs from 30 PubMed papers—boosting structured‑format adherence by 45% and factual accuracy by 30%.",
+            "Developed an Entrez‑powered citation module using NCBI E‑utilities to fetch top n PubMed results and rank via review‑weighting + 0.85ⁿ decay—achieving 88% relevancy precision.",
+            "Built a high‑throughput backend orchestrator handling 50 queries/sec, merging LLM answers with PMID/DOI links in < 3s."
+        ]
+    },
+    {
+        "id": "worldquant",
+        "company": "WorldQuant",
+        "companyUrl": "https://www.worldquant.com/",
+        "role": "Quantitative Research Consultant Intern",
+        "location": "Remote (Mumbai, India)",
+        "dates": "January 2024 - May 2024",
+        "image": "images/wq.jpeg",
+        "bullets": [
+            "Developed over 150 predictive alphas to forecast market trends in the USA and China, using comprehensive price-volume and sentiment datasets; delivered alpha submissions with Sharpe ratios under 3.45 and fitness above 1.2.",
+            "<a href=\"https://drive.google.com/file/d/1innW-K4JYvMsJfWPXI7E5v1x6EGfN5yx/view\">Certificate</a>"
+        ]
+    }
+]
