@@ -2,13 +2,13 @@
     "published": [
         {
             "title": "Target and Biomarker Exploration Portal for Drug Discovery research",
-            "authors": "Bhupesh Dewangan, Debjyoti Ray, Sameera Devulapalli, Yijie Ren, Shraddha Srivastava, Shilpi Chaurasia, Lei Jiang, <a href=\"https://www.linkedin.com/in/muneendra-ojha-a3153b15/\"> Muneendra Ojha </a>, <a href=\"https://engineering.missouri.edu/faculty/dong-xu/\">Dong Xu</a>, <a href=\"https://www.linkedin.com/in/gyan-srivastava-501b6715/\">Gyan Srivastava</a>",
-            "venue": "BioInformatics, 2025 (Under Review)",
+            "authors": "Debjyoti Ray, <a href=\"https://www.linkedin.com/in/muneendra-ojha-a3153b15/\"> Muneendra Ojha </a>, <a href=\"https://engineering.missouri.edu/faculty/dong-xu/\">Dong Xu</a>, <a href=\"https://www.linkedin.com/in/gyan-srivastava-501b6715/\">Gyan Srivastava</a>",
+            "venue": "BioInformatics Journal, 2025",
             "image": "images/tbep.svg",
             "links": [
                 {
                     "text": "paper",
-                    "url": "https://www.researchgate.net/publication/387900903_Target_and_Biomarker_Exploration_Portal_for_Drug_Discovery"
+                    "url": "https://academic.oup.com/bioinformatics/article/41/12/btaf627/8322747"
                 },
                 {
                     "text": "Live version of the tool",
@@ -51,20 +51,25 @@
             ],
             "description": "This paper explores the application of Deep Q-Learning to create an intelligent agent capable of mastering the classic Snake game, demonstrating the effectiveness of reinforcement learning in game environments.",
             "highlighted": true
+        },
+        {
+            "title": "AgentXthics: Multi-Agent Resource Management Simulation",
+            "authors": "Debjyoti Ray",
+            "venue": "UC Berkeley RDI AgentX Hackathon (Research Track), 2025",
+            "image": "images/multi-agent.png",
+            "links": [
+                {
+                    "text": "paper",
+                    "url": "https://drive.google.com/file/d/17YmiSHWKr-C0H-u9Lm5S0DwvDadUZVvT/view?usp=sharing"
+                },
+                {
+                    "text": "code",
+                    "url": "https://github.com/DebjyotiRay/agentxthics"
+                }
+            ],
+            "description": "An LLM-driven multi-agent simulation exploring ethical decision-making in resource-constrained environments. The system implements inter-agent negotiation and conflict-resolution protocols to balance individual utility against collective sustainability, with real-time monitoring of resource metrics and agent behaviors to extract insights on ethical trade-offs.",
+            "highlighted": false
         }
     ],
-    "currentResearch": [
-        {
-            "title": "UC Berkeley RDI AgentX Hackathon (Research Track)",
-            "location": "Remote",
-            "dates": "May 2025 – Present",
-            "image": "images/multi-agent.png",
-            "bullets": [
-                "Prototyping an LLM-driven multi-agent simulation that manages a shared resource pool with configurable consumption limits and regeneration rates.",
-                "Designing and testing inter-agent negotiation and conflict-resolution protocols to balance individual utility against group sustainability under scarcity.",
-                "Integrating LLM API calls into each agent's decision logic to weigh self-interest versus collective welfare in real time.",
-                "Monitoring resource metrics and agent behaviors across simulation runs to extract insights on ethical trade-offs and long-term system health."
-            ]
-        }
-    ]
+    "currentResearch": []
 }
