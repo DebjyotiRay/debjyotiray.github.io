@@ -4,7 +4,7 @@
         "company": "Miiflow Inc.",
         "companyUrl": "https://www.miilab.io/",
         "role": "ML Engineer",
-        "location": "Remote",
+        "location": "Remote(San Francisco Bay Area)",
         "dates": "August 2025 - Present",
         "image": "images/miiflow.png",
         "bullets": [
@@ -18,7 +18,7 @@
         "companyUrl": "https://aws.amazon.com/q/business/",
         "role": "Software Dev Engineer Intern",
         "location": "Bangalore, India",
-        "dates": "April 2025 - May 2025",
+        "dates": "May 2025 - July 2025",
         "image": "images/amazon.jpeg",
         "bullets": [
             "Integrated real-time voice-driven bidirectional streaming APIs into AWS Q for Business using Coral (Amazon's Java/Spring framework), enabling seamless voice-to-LLM-voice interactions via Bedrock-hosted models and EC2-deployed services.",
